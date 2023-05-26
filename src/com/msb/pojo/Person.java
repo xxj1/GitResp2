@@ -6,6 +6,7 @@ public class Person {
     private double weight;
     private double height;
     private double id;
+    private String family;
 
     @Override
     public String toString() {
@@ -14,6 +15,8 @@ public class Person {
                 ", age=" + age +
                 ", weight=" + weight +
                 ", height=" + height +
+                ", id=" + id +
+                ", family='" + family + '\'' +
                 '}';
     }
 
